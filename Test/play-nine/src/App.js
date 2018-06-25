@@ -7,9 +7,9 @@ import 'jquery/dist/jquery.slim'
 import 'bootstrap/dist/js/bootstrap.js';
 import { library } from '@fortawesome/fontawesome-svg-core'
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { faStar, faCheck, faTimes, faSync } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faStar)
+library.add(faStar, faCheck, faTimes, faSync)
 
 class App extends Component {
   render() {
